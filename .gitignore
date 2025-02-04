@@ -1,0 +1,18 @@
+# Ignore Python environment folders
+env/
+venv/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore Jupyter Notebook cache
+.ipynb_checkpoints/
+
+# Ignore dataset files (optional: if they are large)
+datasets/*.csv
+datasets/*.geojson
+
+# Ignore system files (Windows & macOS)
+.DS_Store
+Thumbs.db
